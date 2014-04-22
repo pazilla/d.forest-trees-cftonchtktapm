@@ -52,7 +52,7 @@ table {
 body {
   font-size: 1em;
   line-height: 1.5; 
-  background: #e7e7e7 url(/{{ site.github.project_title/images/body-bg.png) 0 0 repeat;
+  background: #e7e7e7 url(/{{ site.github.project_title }}/images/body-bg.png) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   color: #6d6d6d;
@@ -87,7 +87,7 @@ header h2 {
 }
 
 #container {
-  background: transparent url(/{{ site.github.project_title/images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(/{{ site.github.project_title }}/images/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
 }
 
@@ -155,19 +155,19 @@ a.button span {
 }
 
 #download-zip span {
-  background: transparent url(/{{ site.github.project_title/images/zip-icon.png) 12px 50% no-repeat;
+  background: transparent url(/{{ site.github.project_title }}/images/zip-icon.png) 12px 50% no-repeat;
 }
 #download-tar-gz span {
-  background: transparent url(/{{ site.github.project_title/images/tar-gz-icon.png) 12px 50% no-repeat;
+  background: transparent url(/{{ site.github.project_title }}/images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
-  background: transparent url(/{{ site.github.project_title/images/octocat-icon.png) 12px 50% no-repeat;
+  background: transparent url(/{{ site.github.project_title }}/images/octocat-icon.png) 12px 50% no-repeat;
 }
 #link-donate span {
-  background: transparent url(/{{ site.github.project_title/images/1397626062_donate.png) 12px 50% no-repeat;
+  background: transparent url(/{{ site.github.project_title }}/images/1397626062_donate.png) 12px 50% no-repeat;
 }
 #link-about span {
-  background: transparent url(/{{ site.github.project_title/images/icon-question-yellowbrown.svg) 12px 50% no-repeat;
+  background: transparent url(/{{ site.github.project_title }}/images/icon-question-yellowbrown.svg) 12px 50% no-repeat;
 }
 #view-on-github {
   margin-right: 0;
@@ -218,7 +218,7 @@ hr {
   margin-top: 1em;
   padding-bottom: 1em;
   border: none;
-  background: transparent url('/{{ site.github.project_title/images/hr.png') 50% 0 no-repeat;
+  background: transparent url('/{{ site.github.project_title }}/images/hr.png') 50% 0 no-repeat;
 }
 
 strong {
